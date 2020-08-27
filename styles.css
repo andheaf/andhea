@@ -103,7 +103,7 @@ h1 {
 }
 
 .bg-custom {
-    background: url("images/banner2.jpg");
+    background: url("images/banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -206,6 +206,6 @@ ul.social-media a:hover {
     }
 
     to {
-        top: 200px;
+        top: 180px;
     }
 }
