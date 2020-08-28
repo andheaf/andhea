@@ -53,6 +53,7 @@ h1 {
     animation:
         typing 3.5s steps(40, end),
         blink-caret .75s step-end infinite;
+    animation-delay: 1s;
 }
 
 .typewriter {
@@ -190,22 +191,12 @@ ul.social-media a:hover {
     width: 300px;
     height: 400px;
     background: #0f4c75;
-    animation: mymove 5s forwards;
     position: absolute;
     z-index: 1;
+    top: 180px
 }
 
 .front {
     position: relative;
     z-index: 1;
-}
-
-@keyframes mymove {
-    from {
-        top: 0px;
-    }
-
-    to {
-        top: 180px;
-    }
 }
